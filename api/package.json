@@ -1,0 +1,21 @@
+{
+    "name": "donation",
+    "version": "1.0.0",
+    "description": "Web application to show all items that available in donation list",
+    "main": "index.js",
+    "repository": "https://github.com/juliotanadi/donation.git",
+    "author": "Julio Tanadi (juliotanadi@gmail.com)",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt": "^3.0.7",
+        "dotenv": "^8.2.0",
+        "fastify": "^2.11.0",
+        "fastify-cors": "^3.0.1",
+        "fastify-multer": "^1.5.2",
+        "fastify-static": "^2.5.1",
+        "jimp": "^0.9.3",
+        "jsonwebtoken": "^8.5.1",
+        "mysql2": "^2.1.0",
+        "path": "^0.12.7"
+    }
+}

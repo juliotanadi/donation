@@ -1,0 +1,22 @@
+{
+    "name": "donation",
+    "version": "1.0.0",
+    "description": "Web application to show all items that available in donation list",
+    "main": "index.js",
+    "repository": "https://github.com/juliotanadi/donation.git",
+    "author": "Julio Tanadi (juliotanadi@gmail.com)",
+    "license": "MIT",
+    "scripts": {
+        "dev": "parcel ./index.html",
+        "build": "parcel build ./index.html"
+    },
+    "dependencies": {
+        "@reach/router": "^1.2.1",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "semantic-ui-react": "^0.88.2"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.12.4"
+    }
+}
